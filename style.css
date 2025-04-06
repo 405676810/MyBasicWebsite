@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s; /* Smooth transition for color changes */
+}
+
+h1, p:not(#fastClickText) {
+    color: #333;
+    text-align: center;
+    transition: color 0.5s; /* Smooth transition for text color changes */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for button color changes */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#fastClickText {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333; /* Default color */
+    transition: color 0.5s; /* Smooth transition for color changes */
+}
